@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    // background-color: #ECEFF1;
+    background-color: lightcoral;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-image: url(../img/pokemonBg.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+img{
+    box-sizing: border-box;
+}
+
+
+//--------------------- SPECIFIC ----------------------//
+
+
+img, ul{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    // width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+// h1{
+//     font-family: 'Montserrat', sans-serif;
+//     font-size:#d1d1d1;
+//     text-align: center;
+//     font-size: 4rem;
+//     border: 1px solid red;
+//     margin: 0;
+//     padding: 0;
+//     background-color:#d1d1d1;
+//     width: 98%;
+//     margin: auto;
+// }
+
+header{
+    background-image: url(../img/pokedexGant.jpg);
+    background-size: cover;
+    // background-repeat: no-repeat;
+    background-position: center;
+
+    height: 200px;
+    width: 95%;
+    border: 1px solid lightgrey;
+    margin: auto;
+}
+
+input{
+    // margin: 0;
+    // padding: 10px;
+    // color: #d1d1d1;
+    // border: 5px solid #0071B9;
+    // border-width: 0 0 5px;
+    // // outline: 0;
+    // box-shadow: 2px 0 10px rgba(75, 47, 47, 0.2);
+    // font-size: 1.1rem;
+    border: 5px solid lightgrey;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.suggestions{
+    width: 98%;
+    margin: auto;
+}
+
+.suggestions li{
+    background-color: #fff;
+    list-style: none;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 20px;
+    img{
+        // border: 1px solid black;
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: auto;
+    }
+    span{
+        // border: 1px solid black;
+        font-size: 1.1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.hightlightMatches{
+    background-color: orange;
+}

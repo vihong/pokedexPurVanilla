@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: lightcoral;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  background-image: url(../img/pokemonBg.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img, ul {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  background-image: url(../img/pokedexGant.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 95%;
+  border: 1px solid lightgrey;
+  margin: auto;
+}
+
+input {
+  border: 5px solid lightgrey;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.suggestions {
+  width: 98%;
+  margin: auto;
+}
+
+.suggestions li {
+  background-color: #fff;
+  list-style: none;
+  padding: 20px;
+  -webkit-box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.suggestions li img {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: auto;
+}
+
+.suggestions li span {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.hightlightMatches {
+  background-color: orange;
+}
+/*# sourceMappingURL=style.css.map */
